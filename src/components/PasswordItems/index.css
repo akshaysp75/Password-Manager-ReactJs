@@ -1,0 +1,87 @@
+.list-items {
+  list-style-type: none;
+  border: solid 1px;
+  border-color: #7683cb;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.text {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: #f8fafc;
+  margin: 5px 0;
+  padding-left: 10px;
+}
+
+.input-text {
+  background: none;
+  color: #f8fafc;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.button-icon {
+  width: 30px;
+  position: relative;
+  outline: none;
+}
+
+.website-text {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: palegoldenrod;
+  margin: 5px 0;
+  padding-left: 10px;
+}
+.star-images {
+  width: 160px;
+  margin-left: 7px;
+}
+
+@media (max-width: 768px) {
+  .list-items {
+    padding: 8px;
+    margin: 8px;
+  }
+
+  .text,
+  .input-text,
+  .website-text {
+    font-size: 12px;
+  }
+
+  .button-icon {
+    width: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .list-items {
+    padding: 6px;
+    margin: 6px;
+  }
+
+  .text,
+  .input-text,
+  .website-text {
+    font-size: 10px;
+  }
+
+  .button-icon {
+    width: 20px;
+  }
+}
